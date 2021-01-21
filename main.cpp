@@ -17,7 +17,7 @@ void loop() {
 
   distance = sonar.ping_cm();
 
- 
+ #
   
   Serial.print("distance = ");
   if (distance >= 450 || distance <= 2) {
