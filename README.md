@@ -7,4 +7,8 @@ In this project an arduino and a sensor is used to measure the distance from an 
 ## The Code
 At the beginning the code shows how the wires are connectet to the arduino and what liberies are used. At the void steup the value 9600 is used and 9600 describes how fast the data is sent. At void loop the sensor measure the distance and showa the result in centimenters.
 ## Schematics
+Vcc - 5v
+trig - d10
+echo - d13
+GND - GND
 ![IMG_0645](https://user-images.githubusercontent.com/57347174/105398278-75354180-5c22-11eb-8bf8-aa8643669fe1.JPG)
